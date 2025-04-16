@@ -1,479 +1,363 @@
 {
-    "locales": {
-        "en": {
-            "title": "Portfolio",
-            "title_long_prefix": "Take a look at",
-            "title_long": "My **Portfolio**"
-        },
-
-        "es": {
-            "title": "Portafolio",
-            "title_long_prefix": "Explora",
-            "title_long": "Mi **Portafolio**"
-        },
-
-        "fr": {
-            "title": "Portfolio",
-            "title_long_prefix": "Découvrez",
-            "title_long": "Mon **Portfolio**"
-        },
-
-        "ko": {
-            "title": "포트폴리오",
-            "title_long_prefix": "이것은 내",
-            "title_long": "**포트폴리오**입니다"
-        }
+  "locales": {
+    "en": {
+      "title": "Portfolio",
+      "title_long_prefix": "Take a look at",
+      "title_long": "My **Portfolio**"
     },
 
-    "articles": [
+    "es": {
+      "title": "Portafolio",
+      "title_long_prefix": "Explora",
+      "title_long": "Mi **Portafolio**"
+    },
+
+    "fr": {
+      "title": "Portfolio",
+      "title_long_prefix": "Découvrez",
+      "title_long": "Mon **Portfolio**"
+    },
+
+    "ko": {
+      "title": "포트폴리오",
+      "title_long_prefix": "이것은 내",
+      "title_long": "**포트폴리오**입니다"
+    }
+  },
+
+  "articles": [
+    {
+      "id": "portfolio",
+      "component": "ArticlePortfolio",
+      "config": {},
+      "locales": {},
+      "categories": [
         {
-            "id": "portfolio",
-            "component": "ArticlePortfolio",
-            "config": {},
-            "locales": {},
-
-            "categories": [
-                {
-                    "id": "apps",
-                    "locales": {
-                        "en": {"singular": "App", "plural": "Apps"},
-                        "es": {"singular": "App", "plural": "Apps"},
-                        "fr": {"singular": "App", "plural": "Apps"},
-                        "ko": {"singular": "앱", "plural": "앱들"}
-                    }
-                },
-                {
-                    "id": "websites",
-                    "locales": {
-                        "en": {"singular": "Website", "plural": "Web"},
-                        "es": {"singular": "Sitio web", "plural": "Web"},
-                        "fr": {"singular": "Site web", "plural": "Web"},
-                        "ko": {"singular": "웹사이트", "plural": "웹"}
-                    }
-                },
-                {
-                    "id": "utilities",
-                    "locales": {
-                        "en": {"singular": "Utility", "plural": "Utilities"},
-                        "es": {"singular": "Utilidad", "plural": "Utilidades"},
-                        "fr": {"singular": "Utilitaire", "plural": "Utilitaires"},
-                        "ko": {"singular": "유틸리티", "plural": "유틸리티들"}
-                    }
-                }
-            ],
-
-            "items": [
-                {
-                    "categoryId": "utilities",
-                    "icon": {
-                        "img": "images/pictures/project-logo-3.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com"},
-                        {"faIcon": "fa-brands fa-npm", "href": "https://npm.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=32XsfeIX_rM",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "BrainPulse",
-                            "text": "A <b>RESTful API</b> backend built with <b>Node.js</b>, designed for high-performance data processing and real-time event handling.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "es": {
-                            "title": "BrainPulse",
-                            "text": "Una <b>API RESTful</b> construida con <b>Node.js</b>, diseñada para el procesamiento de datos de alto rendimiento y la gestión de eventos en tiempo real.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "fr": {
-                            "title": "BrainPulse",
-                            "text": "Un backend <b>API RESTful</b> construit avec <b>Node.js</b>, conçu pour le traitement de données haute performance et la gestion d'événements en temps réel.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "ko": {
-                            "title": "BrainPulse",
-                            "text": "<b>Node.js</b>로 구축된 <b>RESTful API</b> 백엔드로, 고성능 데이터 처리 및 실시간 이벤트 처리용으로 설계되었습니다.",
-                            "tags": ["API", "REST", "Backend"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "images/pictures/project-logo-7.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=TfgBHC5gvTI",
-                        "screenshots": {
-                            "aspectRatio": "9:16",
-                            "images": [
-                                "images/pictures/project-screenshot-1.webp",
-                                "images/pictures/project-screenshot-2.webp",
-                                "images/pictures/project-screenshot-3.webp",
-                                "images/pictures/project-screenshot-4.webp",
-                                "images/pictures/project-screenshot-5.webp"
-                            ]
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "MailM8",
-                            "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
-                        },
-                        "es": {
-                            "title": "MailM8",
-                            "text": "Un cliente de correo electrónico multiplataforma construido con <b>Flutter</b>, que ofrece comunicación eficiente y una interfaz intuitiva para la <b>gestión de correos electrónicos</b>.",
-                            "tags": ["Flutter", "Correo", "Comunicación"]
-                        },
-                        "fr": {
-                            "title": "MailM8",
-                            "text": "Un client de messagerie multiplateforme construit avec <b>Flutter</b>, offrant une communication efficace et une interface intuitive pour <b>gérer les e-mails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
-                        },
-                        "ko": {
-                            "title": "MailM8",
-                            "text": "<b>Flutter</b>로 구축된 크로스플랫폼 이메일 클라이언트로, 이메일 <b>관리</b>를 위한 직관적인 UI를 통해 효율적인 소통을 제공합니다.",
-                            "tags": ["Flutter", "이메일", "소통"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "images/pictures/project-logo-6.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": "16:9",
-                            "images": [
-                                "images/pictures/project-screenshot-6.png",
-                                "images/pictures/project-screenshot-7.png",
-                                "images/pictures/project-screenshot-8.png"
-                            ]
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Stackers",
-                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
-                            "tags": ["React", "Organization", "Notes"]
-                        },
-                        "es": {
-                            "title": "Stackers",
-                            "text": "Una app de productividad con todas las funciones, desarrollada con <b>React Native</b>, que permite a los usuarios organizar tareas, notas y proyectos en varios dispositivos. Ofrece <b>sincronización en la nube</b>, interfaz intuitiva y características de colaboración.",
-                            "tags": ["React", "Organización", "Notas"]
-                        },
-                        "fr": {
-                            "title": "Stackers",
-                            "text": "Une application de productivité complète développée avec <b>React Native</b>, permettant aux utilisateurs d'organiser tâches, notes et projets sur plusieurs appareils. Elle offre <b>synchronisation cloud</b>, interface intuitive et fonctionnalités de collaboration.",
-                            "tags": ["React", "Organisation", "Notes"]
-                        },
-                        "ko": {
-                            "title": "Stackers",
-                            "text": "<b>React Native</b>로 개발된 기능이 풍부한 생산성 앱으로, 사용자가 여러 기기에서 작업, 메모, 프로젝트를 <b>클라우드 동기화</b>와 직관적인 UI로 관리할 수 있습니다.",
-                            "tags": ["React", "조직", "메모"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "websites",
-                    "icon": {
-                        "img": "images/pictures/project-logo-1.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://cash.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=MQe_MoJ7Iww",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "SmartCash",
-                            "text": "A finance website built using <b>Next.js</b>, allowing users to <b>track budgets</b> and manage their money with interactive charts and insights.",
-                            "tags": ["Next.js", "Finance", "Money"]
-                        },
-                        "es": {
-                            "title": "SmartCash",
-                            "text": "Un sitio web financiero construido con <b>Next.js</b>, que permite a los usuarios <b>seguir presupuestos</b> y gestionar su dinero con gráficos interactivos e ideas.",
-                            "tags": ["Next.js", "Finanzas", "Dinero"]
-                        },
-                        "fr": {
-                            "title": "SmartCash",
-                            "text": "Un site web financier construit avec <b>Next.js</b>, permettant aux utilisateurs de <b>suivre les budgets</b> et de gérer leur argent avec des graphiques interactifs et des analyses.",
-                            "tags": ["Next.js", "Finance", "Argent"]
-                        },
-                        "ko": {
-                            "title": "SmartCash",
-                            "text": "<b>Next.js</b>로 구축된 금융 웹사이트로, 사용자가 <b>예산을 추적</b>하고 상호작용하는 차트와 통찰력으로 자금을 관리할 수 있습니다.",
-                            "tags": ["Next.js", "금융", "돈"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "images/pictures/project-logo-2.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Snappy",
-                            "text": "A powerful photography app designed with <b>Swift</b> for iOS and Android, featuring <b>advanced camera controls</b>, editing tools, and AI-powered filters for quick photo enhancements.",
-                            "tags": ["Swift", "Photography", "Camera"]
-                        },
-                        "es": {
-                            "title": "Snappy",
-                            "text": "Una app de fotografía potente diseñada con <b>Swift</b> para iOS y Android, con <b>controles avanzados de cámara</b>, herramientas de edición y filtros potenciados por IA para mejoras rápidas de fotos.",
-                            "tags": ["Swift", "Fotografía", "Cámara"]
-                        },
-                        "fr": {
-                            "title": "Snappy",
-                            "text": "Une application de photographie puissante conçue avec <b>Swift</b> pour iOS et Android, avec des <b>contrôles avancés de la caméra</b>, des outils d'édition et des filtres IA pour des améliorations rapides des photos.",
-                            "tags": ["Swift", "Photographie", "Caméra"]
-                        },
-                        "ko": {
-                            "title": "Snappy",
-                            "text": "<b>Swift</b>로 설계된 강력한 사진 앱으로, iOS 및 Android에서 <b>고급 카메라 제어</b>, 편집 도구, AI 기반 필터를 통해 빠르게 사진을 보정할 수 있습니다.",
-                            "tags": ["Swift", "사진", "카메라"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "websites",
-                    "icon": {
-                        "img": "images/pictures/project-logo-5.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://sweetscoops.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Sweet Scoops",
-                            "text": "A recipe website built with <b>WordPress</b> and WooCommerce, featuring a rich collection of <b>dessert recipes</b> and an integrated e-commerce platform.",
-                            "tags": ["WooCommerce", "Food", "Desserts"]
-                        },
-                        "es": {
-                            "title": "Sweet Scoops",
-                            "text": "Un sitio web de recetas construido con <b>WordPress</b> y WooCommerce, con una rica colección de <b>recetas de postres</b> y una plataforma de comercio electrónico integrada.",
-                            "tags": ["WooCommerce", "Comida", "Postres"]
-                        },
-                        "fr": {
-                            "title": "Sweet Scoops",
-                            "text": "Un site de recettes construit avec <b>WordPress</b> et WooCommerce, présentant une riche collection de <b>recettes de desserts</b> et une plateforme de commerce électronique intégrée.",
-                            "tags": ["WooCommerce", "Cuisine", "Desserts"]
-                        },
-                        "ko": {
-                            "title": "Sweet Scoops",
-                            "text": "<b>WordPress</b>와 WooCommerce로 구축된 레시피 웹사이트로, 풍부한 <b>디저트 레시피</b> 모음과 통합된 전자상거래 플랫폼을 제공합니다.",
-                            "tags": ["WooCommerce", "음식", "디저트"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "websites",
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-guitar",
-                        "faColors": {"bg": "#111", "fill": "#EEE"}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://rockverse.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "RockVerse",
-                            "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>.",
-                            "tags": ["Django", "Music", "Rock"]
-                        },
-                        "es": {
-                            "title": "RockVerse",
-                            "text": "Un sitio web dinámico de música y entretenimiento desarrollado con <b>Django</b>, que muestra noticias de música rock, eventos y <b>contenido en streaming</b>.",
-                            "tags": ["Django", "Música", "Rock"]
-                        },
-                        "fr": {
-                            "title": "RockVerse",
-                            "text": "Un site web de musique et de divertissement dynamique développé avec <b>Django</b>, mettant en avant des nouvelles, événements et <b>contenu en streaming</b> sur le rock.",
-                            "tags": ["Django", "Musique", "Rock"]
-                        },
-                        "ko": {
-                            "title": "RockVerse",
-                            "text": "<b>Django</b>로 개발된 동적인 음악 및 엔터테인먼트 웹사이트로, 록 음악 뉴스, 이벤트 및 <b>스트리밍 콘텐츠</b>를 제공합니다.",
-                            "tags": ["Django", "음악", "록"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "utilities",
-                    "icon": {
-                        "img": "images/pictures/project-logo-4.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Soccer Analytics",
-                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
-                            "tags": ["AI", "Prediction", "Soccer"]
-                        },
-                        "es": {
-                            "title": "Soccer Analytics",
-                            "text": "Una plataforma de análisis deportivo impulsada por IA construida con <b>Python</b> y <b>TensorFlow</b>, que ofrece <b>predicciones</b> detalladas de fútbol y herramientas de gestión de equipos.",
-                            "tags": ["IA", "Predicción", "Fútbol"]
-                        },
-                        "fr": {
-                            "title": "Soccer Analytics",
-                            "text": "Une plateforme d'analytique sportive alimentée par IA construite avec <b>Python</b> et <b>TensorFlow</b>, offrant des <b>prédictions</b> détaillées pour le football et des outils de gestion d'équipe.",
-                            "tags": ["IA", "Prédiction", "Football"]
-                        },
-                        "ko": {
-                            "title": "Soccer Analytics",
-                            "text": "<b>Python</b> 및 <b>TensorFlow</b>로 구축된 AI 기반 스포츠 분석 플랫폼으로, 축구에 대한 <b>예측</b> 및 팀 관리 도구를 제공합니다.",
-                            "tags": ["AI", "예측", "축구"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "",
-                        "fa": "fa-solid fa-truck-fast",
-                        "faColors": {"bg": "#007396", "fill": "#EEE"}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"},
-                        {"faIcon": "fa-brands fa-windows", "href": "https://windows.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "QuickDrop",
-                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
-                        },
-                        "es": {
-                            "title": "QuickDrop",
-                            "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
-                            "tags": ["React Native", "Entrega", "Seguimiento"]
-                        },
-                        "fr": {
-                            "title": "QuickDrop",
-                            "text": "Une application de livraison multiplateforme construite avec <b>React Native</b> et un backend <b>Node.js</b>, avec <b>suivi en temps réel</b> et intégration fluide sur plusieurs plateformes.",
-                            "tags": ["React Native", "Livraison", "Suivi"]
-                        },
-                        "ko": {
-                            "title": "QuickDrop",
-                            "text": "<b>React Native</b>와 <b>Node.js</b> 백엔드로 구축된 크로스플랫폼 배송 앱으로, <b>실시간 추적</b> 및 여러 플랫폼과의 원활한 통합을 제공합니다.",
-                            "tags": ["React Native", "배송", "실시간 추적"]
-                        }
-                    }
-                }
-            ]
+          "id": "apps",
+          "locales": {
+            "en": { "singular": "App", "plural": "Apps" },
+            "es": { "singular": "App", "plural": "Apps" },
+            "fr": { "singular": "App", "plural": "Apps" },
+            "ko": { "singular": "앱", "plural": "앱들" }
+          }
+        },
+        {
+          "id": "websites",
+          "locales": {
+            "en": { "singular": "Website", "plural": "Web" },
+            "es": { "singular": "Sitio web", "plural": "Web" },
+            "fr": { "singular": "Site web", "plural": "Web" },
+            "ko": { "singular": "웹사이트", "plural": "웹" }
+          }
+        },
+        {
+          "id": "utilities",
+          "locales": {
+            "en": { "singular": "Utility", "plural": "Utilities" },
+            "es": { "singular": "Utilidad", "plural": "Utilidades" },
+            "fr": { "singular": "Utilitaire", "plural": "Utilitaires" },
+            "ko": { "singular": "유틸리티", "plural": "유틸리티들" }
+          }
         }
-    ]
+      ],
+
+      "items": [
+        {
+          "categoryId": "utilities",
+          "icon": {
+            "img": "images/pictures/Client-Server.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/KaraniAbdellah/client-server-in-c"
+            }
+          ],
+          "media": {
+            "youtubeVideo": "https://youtu.be/8I73nMff07o?si=wEqnCW484PNf-ue3",
+            "screenshots": {
+              "aspectRatio": null,
+              "images": []
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Client-Server Chat in C",
+              "text": "A <b>client-server</b> chat app built in <b>C</b> using <b>TCP socket programming</b>. It allows communication between client and server over a network on <b>Linux</b>.",
+              "tags": ["C", "TCP/IP", "Socket", "Linux"]
+            },
+            "es": {
+              "title": "Chat Cliente-Servidor en C",
+              "text": "Aplicación de chat <b>cliente-servidor</b> construida en <b>C</b> usando <b>programación de sockets TCP</b>. Permite la comunicación en red en <b>Linux</b>.",
+              "tags": ["C", "TCP/IP", "Sockets", "Linux"]
+            },
+            "fr": {
+              "title": "Chat Client-Serveur en C",
+              "text": "Application de chat <b>client-serveur</b> développée en <b>C</b> avec la <b>programmation de sockets TCP</b>, fonctionnant sur <b>Linux</b>.",
+              "tags": ["C", "TCP/IP", "Sockets", "Linux"]
+            },
+            "ko": {
+              "title": "C 언어 클라이언트-서버 채팅",
+              "text": "<b>C</b>로 만든 <b>클라이언트-서버</b> 채팅 앱으로, <b>TCP 소켓</b>을 사용하여 <b>Linux</b> 환경에서 통신할 수 있습니다.",
+              "tags": ["C", "TCP/IP", "소켓", "Linux"]
+            }
+          }
+        },
+        {
+          "categoryId": "utilities",
+          "icon": {
+            "img": "images/pictures/minishell.jpg",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/KaraniAbdellah/mini-shell.git"
+            }
+          ],
+          "media": {
+            "youtubeVideo": "https://youtu.be/D0NGuq_ynrY?si=Rb-LmaWiqT5kX1jf",
+            "screenshots": {
+              "aspectRatio": null,
+              "images": []
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Mini Shell",
+              "text": "A small custom <b>shell</b> built in <b>C</b>, supporting basic <b>UNIX commands</b>, input/output redirection, <b>pipes</b>, and environment variable handling.",
+              "tags": ["C", "Shell", "UNIX", "Pipes"]
+            },
+            "es": {
+              "title": "Mini Shell",
+              "text": "Un pequeño <b>shell</b> personalizado escrito en <b>C</b>, que admite comandos <b>UNIX</b>, redirección de entrada/salida, <b>pipes</b> y manejo de variables de entorno.",
+              "tags": ["C", "Shell", "UNIX", "Pipes"]
+            },
+            "fr": {
+              "title": "Mini Shell",
+              "text": "Un petit <b>shell</b> personnalisé développé en <b>C</b>, prenant en charge les commandes <b>UNIX</b>, la redirection d’E/S, les <b>pipes</b> et les variables d’environnement.",
+              "tags": ["C", "Shell", "UNIX", "Pipes"]
+            },
+            "ko": {
+              "title": "Mini Shell",
+              "text": "<b>C 언어</b>로 작성된 작은 <b>커스텀 셸</b>로, <b>UNIX 명령어</b>, 입출력 리디렉션, <b>파이프</b>, 환경 변수 처리를 지원합니다.",
+              "tags": ["C", "Shell", "UNIX", "파이프"]
+            }
+          }
+        },
+        {
+          "categoryId": "utilities",
+          "icon": {
+            "img": "images/pictures/fract_ol.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/KaraniAbdellah/fract_ol.git"
+            }
+          ],
+          "media": {
+            "youtubeVideo": "https://youtu.be/O5OwJBbEdyY?si=n2LqrRvUT8oYr94r",
+            "screenshots": {
+              "aspectRatio": null,
+              "images": []
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Fract_ol",
+              "text": "A fractal visualizer built in <b>C</b> using <b>MiniLibX</b>. It generates mathematical fractals like <b>Mandelbrot</b>, <b>Julia</b>, and others with real-time zoom and color effects.",
+              "tags": ["C", "Fractals", "MiniLibX", "Graphics"]
+            },
+            "es": {
+              "title": "Fract_ol",
+              "text": "Un visualizador de fractales desarrollado en <b>C</b> con <b>MiniLibX</b>, que genera fractales matemáticos como <b>Mandelbrot</b> y <b>Julia</b>, con zoom y efectos de color en tiempo real.",
+              "tags": ["C", "Fractales", "MiniLibX", "Gráficos"]
+            },
+            "fr": {
+              "title": "Fract_ol",
+              "text": "Un visualiseur de fractales en <b>C</b> avec <b>MiniLibX</b>, générant des fractales mathématiques comme <b>Mandelbrot</b> et <b>Julia</b>, avec zoom et effets de couleur en temps réel.",
+              "tags": ["C", "Fractales", "MiniLibX", "Graphismes"]
+            },
+            "ko": {
+              "title": "Fract_ol",
+              "text": "<b>C 언어</b>와 <b>MiniLibX</b>를 사용하여 만든 프랙탈 시각화 도구로, <b>만델브로</b>, <b>줄리아</b> 등의 수학적 프랙탈을 생성하며 실시간 확대 및 색상 효과를 제공합니다.",
+              "tags": ["C", "프랙탈", "MiniLibX", "그래픽"]
+            }
+          }
+        },
+        {
+          "categoryId": "utilities",
+          "icon": {
+            "img": "images/pictures/dijikstra_algo.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/KaraniAbdellah/dijkstra_algo"
+            }
+          ],
+          "media": {
+            "youtubeVideo": "https://youtu.be/O5OwJBbEdyY?si=n2LqrRvUT8oYr94r",
+            "screenshots": {
+              "aspectRatio": null,
+              "images": []
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Dijkstra Algorithm",
+              "text": "A visual implementation of <b>Dijkstra's algorithm</b> in <b>C</b>, showing the shortest path between nodes in a graph. Useful for learning graph theory and pathfinding.",
+              "tags": ["C", "Algorithms", "Graph", "Pathfinding"]
+            },
+            "es": {
+              "title": "Algoritmo de Dijkstra",
+              "text": "Una implementación visual del <b>algoritmo de Dijkstra</b> en <b>C</b>, que muestra el camino más corto entre nodos en un grafo. Útil para aprender teoría de grafos y búsqueda de caminos.",
+              "tags": ["C", "Algoritmos", "Grafo", "Búsqueda"]
+            },
+            "fr": {
+              "title": "Algorithme de Dijkstra",
+              "text": "Une implémentation visuelle de l’<b>algorithme de Dijkstra</b> en <b>C</b>, montrant le plus court chemin entre des nœuds dans un graphe. Utile pour apprendre la théorie des graphes et la recherche de chemins.",
+              "tags": ["C", "Algorithmes", "Graphe", "Chemins"]
+            },
+            "ko": {
+              "title": "다익스트라 알고리즘",
+              "text": "<b>C 언어</b>로 구현된 <b>다익스트라 알고리즘</b> 시각화로, 그래프 내 노드 간 최단 경로를 보여줍니다. 그래프 이론과 경로 탐색 학습에 유용합니다.",
+              "tags": ["C", "알고리즘", "그래프", "경로 탐색"]
+            }
+          }
+        },
+
+        {
+          "categoryId": "websites",
+          "icon": {
+            "img": "images/pictures/30_js_project.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://karaniabdellah.github.io/vanilla_projects/"
+            },
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/KaraniAbdellah/vanilla_projects"
+            }
+          ],
+          "media": {
+            "youtubeVideo": "https://youtu.be/GnU0lJ-RldM?si=khzYJfTfjpLZhXYg",
+            "screenshots": {
+              "aspectRatio": null,
+              "images": []
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Blog App",
+              "text": "A collection of <b>30 JavaScript mini projects</b> to learn and practice JavaScript in a practical way. Each project focuses on core concepts like DOM, events, APIs, and interactivity.",
+              "tags": ["JavaScript", "HTML5", "CSS3", "Projects"]
+            },
+            "es": {
+              "title": "30 Proyectos en JavaScript",
+              "text": "Una colección de <b>30 mini proyectos en JavaScript</b> para aprender y practicar de forma práctica. Cada proyecto se centra en conceptos clave como el DOM, eventos, APIs e interactividad.",
+              "tags": ["JavaScript", "HTML5", "CSS3", "Proyectos"]
+            },
+            "fr": {
+              "title": "30 Projets JavaScript",
+              "text": "Une collection de <b>30 mini projets JavaScript</b> pour apprendre et pratiquer le JavaScript de manière pratique. Chaque projet couvre des notions clés comme le DOM, les événements, les API et l'interactivité.",
+              "tags": ["JavaScript", "HTML5", "CSS3", "Projets"]
+            },
+            "ko": {
+              "title": "30가지 자바스크립트 프로젝트",
+              "text": "<b>자바스크립트를 배우고 연습</b>하기 위한 <b>30가지 미니 프로젝트</b> 모음입니다. 각 프로젝트는 DOM, 이벤트, API, 상호작용 같은 핵심 개념에 중점을 둡니다.",
+              "tags": ["JavaScript", "HTML5", "CSS3", "프로젝트"]
+            }
+          }
+        },
+        {
+          "categoryId": "websites",
+          "icon": {
+            "img": "images/pictures/crafting.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://github.com/KaraniAbdellah/blog_app"
+            },
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/KaraniAbdellah/blog_ap"
+            }
+          ],
+          "media": {
+            "youtubeVideo": "https://youtu.be/gwNOMV9Yn6k?si=tcJ0UoE1eba-sYjr",
+            "screenshots": {
+              "aspectRatio": null,
+              "images": []
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Crafting",
+              "text": "A full-stack blog application inspired by <b>Medium</b>. Users can <b>like</b>, <b>comment</b>, <b>explore topics</b>, and <b>search blogs</b>. Writers can create, update, and delete their own blogs.",
+              "tags": [
+                "React",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Tailwind",
+                "REST API"
+              ]
+            },
+            "es": {
+              "title": "Crafting",
+              "text": "Una aplicación de blog full-stack inspirada en <b>Medium</b>. Los usuarios pueden <b>dar me gusta</b>, <b>comentar</b>, <b>explorar temas</b> y <b>buscar blogs</b>. Los autores pueden crear, editar y eliminar sus blogs.",
+              "tags": [
+                "React",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Tailwind",
+                "REST API"
+              ]
+            },
+            "fr": {
+              "title": "Crafting",
+              "text": "Une application de blog full-stack inspirée de <b>Medium</b>. Les utilisateurs peuvent <b>aimer</b>, <b>commenter</b>, <b>explorer des sujets</b> et <b>rechercher des blogs</b>. Les auteurs peuvent créer, modifier et supprimer leurs articles.",
+              "tags": [
+                "React",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Tailwind",
+                "REST API"
+              ]
+            },
+            "ko": {
+              "title": "Craftings",
+              "text": "<b>Medium</b>에서 영감을 받은 풀스택 블로그 애플리케이션입니다. 사용자는 <b>좋아요</b>, <b>댓글</b>, <b>주제 탐색</b>, <b>검색</b>이 가능하며, 작성자는 블로그를 생성, 수정, 삭제할 수 있습니다.",
+              "tags": [
+                "React",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Tailwind",
+                "REST API"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
 }

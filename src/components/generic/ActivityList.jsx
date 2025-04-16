@@ -105,18 +105,6 @@ function ActivityListItem({item, customStyle, children}) {
                 <div className={`custom-fields mt-1`}>
                     {children}
                 </div>
-
-                {item.dateStarted && (
-                    <ActivityListInfoBlock icon={`fa-solid fa-stopwatch`}
-                                           text={experienceLabel}
-                                           shouldDisplayLargeText={Boolean(children)}/>
-                )}
-
-                {item.description && (
-                    <ActivityListInfoBlock icon={item.dateStarted ? `fa-solid fa-comment` : ``}
-                                           text={item.description}
-                                           shouldDisplayLargeText={Boolean(children)}/>
-                )}
             </div>
         </div>
     )

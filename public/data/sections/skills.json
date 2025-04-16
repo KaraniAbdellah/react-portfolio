@@ -172,7 +172,6 @@
       "locales": {
         "en": { "title": "Backend" }
       },
-
       "items": [
         {
           "icon": {
@@ -257,36 +256,6 @@
         {
           "icon": {
             "img": null,
-            "fa": "fa-brands fa-react",
-            "faColors": { "bg": "#61DAFB", "fill": "#111" }
-          },
-          "value": 100,
-          "dates": { "start": "01/01/2018" },
-          "locales": { "en": { "title": "React.js", "info": null } }
-        },
-        {
-          "icon": {
-            "img": null,
-            "fa": "fa-solid fa-code",
-            "faColors": { "bg": "#3178C6", "fill": "#EEE" }
-          },
-          "value": 100,
-          "dates": { "start": "01/01/2018" },
-          "locales": { "en": { "title": "TypeScript", "info": null } }
-        },
-        {
-          "icon": {
-            "img": null,
-            "fa": "fa-brands fa-js",
-            "faColors": { "bg": "#F7DF1E", "fill": "#111" }
-          },
-          "value": 100,
-          "dates": { "start": "01/01/2018" },
-          "locales": { "en": { "title": "JavaScript", "info": null } }
-        },
-        {
-          "icon": {
-            "img": null,
             "fa": "fa-solid fa-c",
             "faColors": { "bg": "#A8B9CC", "fill": "#111" }
           },
@@ -303,26 +272,6 @@
           "value": 60,
           "dates": { "start": "01/01/2018" },
           "locales": { "en": { "title": "Linux Commands", "info": null } }
-        },
-        {
-          "icon": {
-            "img": null,
-            "fa": "fa-brands fa-css3-alt",
-            "faColors": { "bg": "#38BDF8", "fill": "#111" }
-          },
-          "value": 60,
-          "dates": { "start": "01/01/2018" },
-          "locales": { "en": { "title": "TailwindCSS", "info": null } }
-        },
-        {
-          "icon": {
-            "img": null,
-            "fa": "fa-brands fa-figma",
-            "faColors": { "bg": "#F24E1E", "fill": "#EEE" }
-          },
-          "value": 70,
-          "dates": { "start": "01/01/2018" },
-          "locales": { "en": { "title": "Figma", "info": null } }
         },
         {
           "icon": {
@@ -359,7 +308,6 @@
       "locales": {
         "en": { "title": "Frontend" }
       },
-
       "items": [
         {
           "icon": {
@@ -368,15 +316,8 @@
             "faColors": { "bg": "#E34F26", "fill": "#EEE" }
           },
           "value": 100,
-          "dates": {
-            "start": "09/01/2018"
-          },
-          "locales": {
-            "en": {
-              "title": "HTML5",
-              "info": null
-            }
-          }
+          "dates": { "start": "09/01/2018" },
+          "locales": { "en": { "title": "HTML5", "info": null } }
         },
         {
           "icon": {
@@ -385,15 +326,8 @@
             "faColors": { "bg": "#1572B6", "fill": "#EEE" }
           },
           "value": 65,
-          "dates": {
-            "start": "01/15/2019"
-          },
-          "locales": {
-            "en": {
-              "title": "CSS3",
-              "info": null
-            }
-          }
+          "dates": { "start": "01/15/2019" },
+          "locales": { "en": { "title": "CSS3", "info": null } }
         },
         {
           "icon": {
@@ -402,15 +336,8 @@
             "faColors": { "bg": "#F7DF1E", "fill": "#111" }
           },
           "value": 90,
-          "dates": {
-            "start": "03/10/2020"
-          },
-          "locales": {
-            "en": {
-              "title": "JavaScript ES6+",
-              "info": null
-            }
-          }
+          "dates": { "start": "03/10/2020" },
+          "locales": { "en": { "title": "JavaScript ES6+", "info": null } }
         },
         {
           "icon": {
@@ -419,15 +346,8 @@
             "faColors": { "bg": "#61DAFB", "fill": "#111" }
           },
           "value": 95,
-          "dates": {
-            "start": "06/20/2020"
-          },
-          "locales": {
-            "en": {
-              "title": "React",
-              "info": null
-            }
-          }
+          "dates": { "start": "06/20/2020" },
+          "locales": { "en": { "title": "React", "info": null } }
         },
         {
           "icon": {
@@ -436,15 +356,8 @@
             "faColors": { "bg": "#4FC08D", "fill": "#111" }
           },
           "value": 40,
-          "dates": {
-            "start": "08/30/2023"
-          },
-          "locales": {
-            "en": {
-              "title": "Vue.js",
-              "info": null
-            }
-          }
+          "dates": { "start": "08/30/2023" },
+          "locales": { "en": { "title": "Vue.js", "info": null } }
         },
         {
           "icon": {
@@ -453,20 +366,41 @@
             "faColors": { "bg": "#7952B3", "fill": "#EEE" }
           },
           "value": 90,
-          "dates": {
-            "start": "02/10/2021"
+          "dates": { "start": "02/10/2021" },
+          "locales": { "en": { "title": "Bootstrap", "info": null } }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-code",
+            "faColors": { "bg": "#3178C6", "fill": "#EEE" }
           },
-          "locales": {
-            "en": {
-              "title": "Bootstrap",
-              "info": null
-            }
-          }
+          "value": 100,
+          "dates": { "start": "01/01/2018" },
+          "locales": { "en": { "title": "TypeScript", "info": null } }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-css3-alt",
+            "faColors": { "bg": "#38BDF8", "fill": "#111" }
+          },
+          "value": 60,
+          "dates": { "start": "01/01/2018" },
+          "locales": { "en": { "title": "TailwindCSS", "info": null } }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-figma",
+            "faColors": { "bg": "#F24E1E", "fill": "#EEE" }
+          },
+          "value": 70,
+          "dates": { "start": "01/01/2018" },
+          "locales": { "en": { "title": "Figma", "info": null } }
         }
       ]
     },
-
-    
 
     {
       "id": "languages",
@@ -482,38 +416,6 @@
       "items": [
         {
           "icon": {
-            "img": "images/flags/en.png",
-            "fa": null,
-            "faColors": { "bg": null, "fill": null }
-          },
-          "value": null,
-          "dates": { "start": null },
-          "locales": {
-            "en": {
-              "title": "English",
-              "info": "Native speaker with excellent communication and writing skills.",
-              "tags": ["Native"]
-            },
-            "es": {
-              "title": "Inglés",
-              "info": "Hablante nativo con excelentes habilidades de comunicación y escritura.",
-              "tags": ["Nativo"]
-            },
-            "fr": {
-              "title": "Anglais",
-              "info": "Locuteur natif avec d'excellentes compétences en communication et en rédaction.",
-              "tags": ["Natif"]
-            },
-            "ko": {
-              "title": "영어",
-              "info": "모국어 수준의 의사소통 및 글쓰기 능력을 보유.",
-              "tags": ["모국어"]
-            }
-          }
-        },
-
-        {
-          "icon": {
             "img": "images/flags/fr.png",
             "fa": null,
             "faColors": { "bg": null, "fill": null }
@@ -523,30 +425,19 @@
           "locales": {
             "en": {
               "title": "French",
-              "info": "Fluent in both spoken and written French; confident in professional communication.",
+              "info": "Fluent in French; confident in all professional settings.",
               "tags": ["Fluent"]
-            },
-            "es": {
-              "title": "Francés",
-              "info": "Fluido en francés hablado y escrito; seguro en la comunicación profesional.",
-              "tags": ["Fluido"]
             },
             "fr": {
               "title": "Français",
-              "info": "Fluent à l'oral et à l'écrit; confiant dans la communication professionnelle.",
+              "info": "Courant à l'oral et à l'écrit.",
               "tags": ["Courant"]
-            },
-            "ko": {
-              "title": "프랑스어",
-              "info": "구어 및 문어에 유창하며, 전문적인 소통에 자신감이 있음.",
-              "tags": ["유창"]
             }
           }
         },
-
         {
           "icon": {
-            "img": "images/flags/vn.png",
+            "img": "images/flags/en.png",
             "fa": null,
             "faColors": { "bg": null, "fill": null }
           },
@@ -554,31 +445,20 @@
           "dates": { "start": null },
           "locales": {
             "en": {
-              "title": "Vietnamese",
-              "info": "Intermediate proficiency in Vietnamese language; can hold conversations and understand written text.",
-              "tags": ["Intermediate"]
-            },
-            "es": {
-              "title": "Vietnamita",
-              "info": "Competencia intermedia en el idioma vietnamita; puede mantener conversaciones y entender textos escritos.",
-              "tags": ["Intermedio"]
+              "title": "English",
+              "info": "Advanced intermediate level in spoken and written English.",
+              "tags": ["Advanced Intermediate"]
             },
             "fr": {
-              "title": "Vietnamien",
-              "info": "Compétence intermédiaire en vietnamien; peut tenir des conversations et comprendre des textes écrits.",
-              "tags": ["Intermédiaire"]
-            },
-            "ko": {
-              "title": "베트남어",
-              "info": "중간 수준의 베트남어 실력; 대화 가능 및 글을 이해할 수 있음.",
-              "tags": ["중급"]
+              "title": "Anglais",
+              "info": "Niveau intermédiaire avancé.",
+              "tags": ["Intermédiaire avancé"]
             }
           }
         },
-
         {
           "icon": {
-            "img": "images/flags/ko.png",
+            "img": "images/flags/mr.png",
             "fa": null,
             "faColors": { "bg": null, "fill": null }
           },
@@ -586,24 +466,14 @@
           "dates": { "start": null },
           "locales": {
             "en": {
-              "title": "Korean",
-              "info": "Basic understanding of Korean; learning and improving.",
-              "tags": ["Basic"]
-            },
-            "es": {
-              "title": "Coreano",
-              "info": "Comprensión básica del coreano; aprendiendo y mejorando.",
-              "tags": ["Básico"]
+              "title": "Arabic",
+              "info": "Native speaker of Arabic.",
+              "tags": ["Native"]
             },
             "fr": {
-              "title": "Coréen",
-              "info": "Compréhension de base du coréen; en apprentissage et amélioration.",
-              "tags": ["Basique"]
-            },
-            "ko": {
-              "title": "한국어",
-              "info": "기초적인 한국어 이해; 배우는 중이며 향상 중.",
-              "tags": ["기초"]
+              "title": "Arabe",
+              "info": "Langue maternelle.",
+              "tags": ["Natif"]
             }
           }
         }

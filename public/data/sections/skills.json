@@ -325,7 +325,7 @@
             "fa": "fa-brands fa-css3",
             "faColors": { "bg": "#1572B6", "fill": "#EEE" }
           },
-          "value": 65,
+          "value": 98,
           "dates": { "start": "01/15/2019" },
           "locales": { "en": { "title": "CSS3", "info": null } }
         },
@@ -335,7 +335,7 @@
             "fa": "fa-brands fa-js",
             "faColors": { "bg": "#F7DF1E", "fill": "#111" }
           },
-          "value": 90,
+          "value": 96,
           "dates": { "start": "03/10/2020" },
           "locales": { "en": { "title": "JavaScript ES6+", "info": null } }
         },
@@ -385,7 +385,7 @@
             "fa": "fa-brands fa-css3-alt",
             "faColors": { "bg": "#38BDF8", "fill": "#111" }
           },
-          "value": 60,
+          "value": 95,
           "dates": { "start": "01/01/2018" },
           "locales": { "en": { "title": "TailwindCSS", "info": null } }
         },

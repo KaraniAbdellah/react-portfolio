@@ -356,6 +356,81 @@
               ]
             }
           }
+        },
+        {
+          "categoryId": "websites",
+          "icon": {
+            "img": "images/pictures/threads.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://github.com/KaraniAbdellah/threads"
+            },
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/KaraniAbdellah/threads"
+            }
+          ],
+          "media": {
+            "youtubeVideo": "https://github.com/KaraniAbdellah/threads",
+            "screenshots": {
+              "aspectRatio": null,
+              "images": []
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Threads",
+              "text": "A full-stack social media app cloned from <b>Twitter</b>. Users can <b>like</b>, <b>comment</b>, <b>follow</b>, and <b>share posts</b>. Users can also create, update, and delete their own posts.",
+              "tags": [
+                "React",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Tailwind",
+                "REST API"
+              ]
+            },
+            "es": {
+              "title": "Threads",
+              "text": "Una aplicación de redes sociales full-stack clonada de <b>Twitter</b>. Los usuarios pueden <b>dar me gusta</b>, <b>comentar</b>, <b>seguir</b> y <b>compartir publicaciones</b>. Los usuarios también pueden crear, editar y eliminar sus propias publicaciones.",
+              "tags": [
+                "React",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Tailwind",
+                "REST API"
+              ]
+            },
+            "fr": {
+              "title": "Threads",
+              "text": "Une application de réseaux sociaux full-stack clonée de <b>Twitter</b>. Les utilisateurs peuvent <b>aimer</b>, <b>commenter</b>, <b>s'abonner</b> et <b>partager des publications</b>. Les utilisateurs peuvent également créer, modifier et supprimer leurs propres publications.",
+              "tags": [
+                "React",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Tailwind",
+                "REST API"
+              ]
+            },
+            "ko": {
+              "title": "Threads",
+              "text": "<b>Twitter</b>에서 클론된 풀스택 소셜 미디어 애플리케이션입니다. 사용자는 <b>좋아요</b>, <b>댓글</b>, <b>팔로우</b>, <b>게시물 공유</b>가 가능합니다. 사용자들은 자신이 만든 게시물을 생성, 수정, 삭제할 수 있습니다.",
+              "tags": [
+                "React",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Tailwind",
+                "REST API"
+              ]
+            }
+          }
         }
       ]
     }

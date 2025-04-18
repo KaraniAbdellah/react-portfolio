@@ -15,6 +15,7 @@
     }
 
     .circle-avatar {
+        width: 200px;
         border-color: var(--theme-soft-3);
         background-color: var(--theme-tag-color);
         @include media-breakpoint-down(md) {

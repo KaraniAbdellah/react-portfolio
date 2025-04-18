@@ -261,7 +261,7 @@
           },
           "locales": {
             "en": {
-              "title": "Blog App",
+              "title": "30 JavaScript mini projects",
               "text": "A collection of <b>30 JavaScript mini projects</b> to learn and practice JavaScript in a practical way. Each project focuses on core concepts like DOM, events, APIs, and interactivity.",
               "tags": ["JavaScript", "HTML5", "CSS3", "Projects"]
             },
@@ -312,8 +312,10 @@
               "text": "A full-stack blog application inspired by <b>Medium</b>. Users can <b>like</b>, <b>comment</b>, <b>explore topics</b>, and <b>search blogs</b>. Writers can create, update, and delete their own blogs.",
               "tags": [
                 "React",
-                "Node.js",
                 "Express",
+                "Authentification",
+                "JWT",
+                "BcryptJs",
                 "MongoDB",
                 "Tailwind",
                 "REST API"
@@ -421,6 +423,158 @@
             "ko": {
               "title": "Threads",
               "text": "<b>Twitter</b>에서 클론된 풀스택 소셜 미디어 애플리케이션입니다. 사용자는 <b>좋아요</b>, <b>댓글</b>, <b>팔로우</b>, <b>게시물 공유</b>가 가능합니다. 사용자들은 자신이 만든 게시물을 생성, 수정, 삭제할 수 있습니다.",
+              "tags": [
+                "React",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Tailwind",
+                "REST API"
+              ]
+            }
+          }
+        },
+        {
+          "categoryId": "websites",
+          "icon": {
+            "img": "images/pictures/ecom_react.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://github.com/KaraniAbdellah/ecom_react.git"
+            },
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/KaraniAbdellah/ecom_react.git"
+            }
+          ],
+          "media": {
+            "youtubeVideo": "https://youtu.be/tcFmin4DfYc?si=ulbcrn5409rwNIWC",
+            "screenshots": {
+              "aspectRatio": null,
+              "images": []
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "ArisanatStore",
+              "text": "This project is an e-commerce website with different spaces for regular users and administrators. It connects user authentication with inventory management to create a complete online shopping experience.",
+              "tags": [
+                "React",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Tailwind",
+                "REST API"
+              ]
+            },
+            "es": {
+              "title": "ArisanatStore",
+              "text": "Este proyecto es un sitio web de comercio electrónico con espacios diferentes para usuarios normales y administradores. Conecta la autenticación de usuarios con la gestión de inventario para ofrecer una experiencia completa de compras en línea.",
+              "tags": [
+                "React",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Tailwind",
+                "REST API",
+                "Team"
+              ]
+            },
+            "fr": {
+              "title": "ArisanatStore",
+              "text": "Ce projet est un site e-commerce avec des espaces distincts pour les utilisateurs et les administrateurs. Il relie l'authentification des utilisateurs à la gestion des stocks pour une expérience complète d'achat en ligne.",
+              "tags": [
+                "React",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Tailwind",
+                "REST API"
+              ]
+            },
+            "ko": {
+              "title": "ArisanatStore",
+              "text": "이 프로젝트는 일반 사용자와 관리자를 위한 공간이 분리된 전자 상거래 웹사이트입니다. 사용자 인증과 재고 관리를 연결하여 완전한 온라인 쇼핑 경험을 제공합니다.",
+              "tags": [
+                "React",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Tailwind",
+                "REST API"
+              ]
+            }
+          }
+        },
+        {
+          "categoryId": "websites",
+          "icon": {
+            "img": "images/pictures/stock_manager.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://github.com/KaraniAbdellah/stock_manager_react"
+            },
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/KaraniAbdellah/stock_manager_react"
+            }
+          ],
+          "media": {
+            "youtubeVideo": "https://github.com/KaraniAbdellah/stock_manager_react",
+            "screenshots": {
+              "aspectRatio": null,
+              "images": []
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Stock Manager",
+              "text": "This project is an e-commerce website with different spaces for regular users and administrators. It connects user authentication with inventory management to create a complete online shopping experience. The Task Manager includes features such as adding, editing, and deleting products, as well as viewing all products and administrators.",
+              "tags": [
+                "React",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Tailwind",
+                "REST API"
+              ]
+            },
+            "es": {
+              "title": "Stock Manager",
+              "text": "Este proyecto es un sitio web de comercio electrónico con espacios diferentes para usuarios normales y administradores. Conecta la autenticación de usuarios con la gestión de inventario para ofrecer una experiencia completa de compras en línea. El Administrador de Tareas incluye funciones como agregar, editar y eliminar productos, además de visualizar todos los productos y administradores.",
+              "tags": [
+                "React",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Tailwind",
+                "REST API",
+                "Team"
+              ]
+            },
+            "fr": {
+              "title": "Stock Manager",
+              "text": "Ce projet est un site e-commerce avec des espaces distincts pour les utilisateurs et les administrateurs. Il relie l'authentification des utilisateurs à la gestion des stocks pour une expérience complète d'achat en ligne. Le Gestionnaire de Tâches propose des fonctionnalités telles que l’ajout, la modification et la suppression de produits, ainsi que la visualisation de tous les produits et administrateurs.",
+              "tags": [
+                "React",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Tailwind",
+                "REST API"
+              ]
+            },
+            "ko": {
+              "title": "Stock Manager",
+              "text": "이 프로젝트는 일반 사용자와 관리자를 위한 공간이 분리된 전자 상거래 웹사이트입니다. 사용자 인증과 재고 관리를 연결하여 완전한 온라인 쇼핑 경험을 제공합니다. 작업 관리자는 제품 추가, 수정, 삭제는 물론, 모든 제품과 관리자 목록을 확인할 수 있는 기능을 제공합니다.",
               "tags": [
                 "React",
                 "Node.js",

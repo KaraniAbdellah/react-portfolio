@@ -128,7 +128,7 @@ function ArticlePortfolio({ data }) {
                                              text={item.text}
                                              links={item.links}
                                              options={item.mediaOptions}
-                                             tags={item.tags.slice(0, 3)}
+                                             tags={item.tags}
                                              img={item.img}
                                              fallbackIcon={item.faIcon}
                                              fallbackIconColors={item.faIconColors}

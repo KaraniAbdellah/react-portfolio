@@ -55,9 +55,9 @@
 
             "items": [
                 {
-                    "value": "+1 (123) 456-7890",
+                    "value": "+212607848253",
                     "links": [
-                        {"href": "tel:11234567890"}
+                        {"href": "tel:0607848253"}
                     ],
                     "icon": {
                         "img": null,
@@ -73,9 +73,9 @@
                 },
 
                 {
-                    "value": "mark.choi@email.com",
+                    "value": "abdellahkarani@email.com",
                     "links": [
-                        {"href": "mailto:mark.choi@email.com"}
+                        {"href": "mailto:abdellahkarani@email.com"}
                     ],
                     "icon": {
                         "img": null,
@@ -89,9 +89,9 @@
                 },
 
                 {
-                    "value": "@markchoi",
+                    "value": "@AbdellahKarani",
                     "links": [
-                        {"href": "https://linkedin.com"}
+                        {"href": "https://www.linkedin.com/in/abdellah-karani-965928294/"}
                     ],
                     "icon": {
                         "img": null,
@@ -102,49 +102,18 @@
                         "en": {"title": "Linkedin"}
                     }
                 },
-
                 {
-                    "value": "Abdellah Karani",
+                    "value": "@AbdellahKarani",
                     "links": [
-                        {"href": "https://facebook.com"}
+                        {"href": "https://x.com/karani66745"}
                     ],
                     "icon": {
                         "img": null,
-                        "fa": "fa-brands fa-facebook",
+                        "fa": "fa-brands fa-x-twitter",
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "en": {"title": "Facebook"}
-                    }
-                },
-
-                {
-                    "value": "@markchoi",
-                    "links": [
-                        {"href": "https://instagram.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-instagram",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"title": "Instagram"}
-                    }
-                },
-
-                {
-                    "value": "@markchoi",
-                    "links": [
-                        {"href": "https://tiktok.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-tiktok",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"title": "TikTok"}
+                        "en": {"title": "Twitter"}
                     }
                 }
             ]

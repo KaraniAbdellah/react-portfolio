@@ -128,23 +128,23 @@
           "locales": {
             "en": {
               "title": "Mini Shell",
-              "text": "A small custom <b>shell</b> built in <b>C</b>, supporting basic <b>UNIX commands</b>, input/output redirection, <b>pipes</b>, and environment variable handling.",
-              "tags": ["C", "Shell", "UNIX", "Pipes"]
+              "text": "A small custom <b>shell</b> built in <b>C</b>, supporting basic <b>Linux commands</b>, input/output redirection, <b>pipes</b>, and environment variable handling.",
+              "tags": ["C", "Shell", "Linux", "Pipes"]
             },
             "es": {
               "title": "Mini Shell",
-              "text": "Un pequeño <b>shell</b> personalizado escrito en <b>C</b>, que admite comandos <b>UNIX</b>, redirección de entrada/salida, <b>pipes</b> y manejo de variables de entorno.",
-              "tags": ["C", "Shell", "UNIX", "Pipes"]
+              "text": "Un pequeño <b>shell</b> personalizado escrito en <b>C</b>, que admite comandos <b>Linux</b>, redirección de entrada/salida, <b>pipes</b> y manejo de variables de entorno.",
+              "tags": ["C", "Shell", "Linux", "Pipes"]
             },
             "fr": {
               "title": "Mini Shell",
-              "text": "Un petit <b>shell</b> personnalisé développé en <b>C</b>, prenant en charge les commandes <b>UNIX</b>, la redirection d’E/S, les <b>pipes</b> et les variables d’environnement.",
-              "tags": ["C", "Shell", "UNIX", "Pipes"]
+              "text": "Un petit <b>shell</b> personnalisé développé en <b>C</b>, prenant en charge les commandes <b>Linux</b>, la redirection d’E/S, les <b>pipes</b> et les variables d’environnement.",
+              "tags": ["C", "Shell", "Linux", "Pipes"]
             },
             "ko": {
               "title": "Mini Shell",
-              "text": "<b>C 언어</b>로 작성된 작은 <b>커스텀 셸</b>로, <b>UNIX 명령어</b>, 입출력 리디렉션, <b>파이프</b>, 환경 변수 처리를 지원합니다.",
-              "tags": ["C", "Shell", "UNIX", "파이프"]
+              "text": "<b>C 언어</b>로 작성된 작은 <b>커스텀 셸</b>로, <b>Linux 명령어</b>, 입출력 리디렉션, <b>파이프</b>, 환경 변수 처리를 지원합니다.",
+              "tags": ["C", "Shell", "Linux", "파이프"]
             }
           }
         },
@@ -261,23 +261,23 @@
           },
           "locales": {
             "en": {
-              "title": "30 JavaScript mini projects",
-              "text": "A collection of <b>30 JavaScript mini projects</b> to learn and practice JavaScript in a practical way. Each project focuses on core concepts like DOM, events, APIs, and interactivity.",
+              "title": "30 Mini JavaScript Projects",
+              "text": "A collection of <b>30 mini JavaScript projects</b> to learn and practice JavaScript in a hands-on way. Each project focuses on core concepts like the DOM, events, APIs, and interactivity.",
               "tags": ["JavaScript", "HTML5", "CSS3", "Projects"]
             },
             "es": {
-              "title": "30 Proyectos en JavaScript",
-              "text": "Una colección de <b>30 mini proyectos en JavaScript</b> para aprender y practicar de forma práctica. Cada proyecto se centra en conceptos clave como el DOM, eventos, APIs e interactividad.",
+              "title": "30 Mini Proyectos en JavaScript",
+              "text": "Una colección de <b>30 mini proyectos en JavaScript</b> para aprender y practicar JavaScript de forma práctica. Cada proyecto se centra en conceptos clave como el DOM, los eventos, las APIs y la interactividad.",
               "tags": ["JavaScript", "HTML5", "CSS3", "Proyectos"]
             },
             "fr": {
-              "title": "30 Projets JavaScript",
-              "text": "Une collection de <b>30 mini projets JavaScript</b> pour apprendre et pratiquer le JavaScript de manière pratique. Chaque projet couvre des notions clés comme le DOM, les événements, les API et l'interactivité.",
+              "title": "30 Mini Projets JavaScript",
+              "text": "Une collection de <b>30 mini projets JavaScript</b> pour apprendre et pratiquer JavaScript de manière concrète. Chaque projet aborde des concepts clés comme le DOM, les événements, les API et l'interactivité.",
               "tags": ["JavaScript", "HTML5", "CSS3", "Projets"]
             },
             "ko": {
-              "title": "30가지 자바스크립트 프로젝트",
-              "text": "<b>자바스크립트를 배우고 연습</b>하기 위한 <b>30가지 미니 프로젝트</b> 모음입니다. 각 프로젝트는 DOM, 이벤트, API, 상호작용 같은 핵심 개념에 중점을 둡니다.",
+              "title": "30가지 자바스크립트 미니 프로젝트",
+              "text": "<b>자바스크립트를 배우고 연습</b>할 수 있는 <b>30가지 미니 프로젝트</b> 모음입니다. 각 프로젝트는 DOM, 이벤트, API, 상호작용 같은 핵심 개념에 중점을 둡니다.",
               "tags": ["JavaScript", "HTML5", "CSS3", "프로젝트"]
             }
           }
@@ -311,13 +311,13 @@
               "title": "Crafting",
               "text": "A full-stack blog application inspired by <b>Medium</b>. Users can <b>like</b>, <b>comment</b>, <b>explore topics</b>, and <b>search blogs</b>. Writers can create, update, and delete their own blogs.",
               "tags": [
-                "React",
+                "ReactJs",
                 "Express",
                 "Authentification",
                 "JWT",
                 "BcryptJs",
                 "MongoDB",
-                "Tailwind",
+                "TailwindCss",
                 "REST API"
               ]
             },
@@ -325,11 +325,11 @@
               "title": "Crafting",
               "text": "Una aplicación de blog full-stack inspirada en <b>Medium</b>. Los usuarios pueden <b>dar me gusta</b>, <b>comentar</b>, <b>explorar temas</b> y <b>buscar blogs</b>. Los autores pueden crear, editar y eliminar sus blogs.",
               "tags": [
-                "React",
+                "ReactJs",
                 "Node.js",
                 "Express",
                 "MongoDB",
-                "Tailwind",
+                "TailwindCss",
                 "REST API"
               ]
             },
@@ -337,11 +337,11 @@
               "title": "Crafting",
               "text": "Une application de blog full-stack inspirée de <b>Medium</b>. Les utilisateurs peuvent <b>aimer</b>, <b>commenter</b>, <b>explorer des sujets</b> et <b>rechercher des blogs</b>. Les auteurs peuvent créer, modifier et supprimer leurs articles.",
               "tags": [
-                "React",
+                "ReactJs",
                 "Node.js",
                 "Express",
                 "MongoDB",
-                "Tailwind",
+                "TailwindCss",
                 "REST API"
               ]
             },
@@ -349,11 +349,11 @@
               "title": "Craftings",
               "text": "<b>Medium</b>에서 영감을 받은 풀스택 블로그 애플리케이션입니다. 사용자는 <b>좋아요</b>, <b>댓글</b>, <b>주제 탐색</b>, <b>검색</b>이 가능하며, 작성자는 블로그를 생성, 수정, 삭제할 수 있습니다.",
               "tags": [
-                "React",
+                "ReactJs",
                 "Node.js",
                 "Express",
                 "MongoDB",
-                "Tailwind",
+                "TailwindCss",
                 "REST API"
               ]
             }
@@ -388,48 +388,48 @@
               "title": "Threads",
               "text": "A full-stack social media app cloned from <b>Twitter</b>. Users can <b>like</b>, <b>comment</b>, <b>follow</b>, and <b>share posts</b>. Users can also create, update, and delete their own posts.",
               "tags": [
-                "React",
-                "Node.js",
+                "ReactJs",
                 "Express",
                 "MongoDB",
-                "Tailwind",
-                "REST API"
+                "TailwindCss",
+                "REST API",
+                "Passport"
               ]
             },
             "es": {
               "title": "Threads",
               "text": "Una aplicación de redes sociales full-stack clonada de <b>Twitter</b>. Los usuarios pueden <b>dar me gusta</b>, <b>comentar</b>, <b>seguir</b> y <b>compartir publicaciones</b>. Los usuarios también pueden crear, editar y eliminar sus propias publicaciones.",
               "tags": [
-                "React",
-                "Node.js",
+                "ReactJs",
                 "Express",
                 "MongoDB",
-                "Tailwind",
-                "REST API"
+                "TailwindCss",
+                "REST API",
+                "Passport"
               ]
             },
             "fr": {
               "title": "Threads",
               "text": "Une application de réseaux sociaux full-stack clonée de <b>Twitter</b>. Les utilisateurs peuvent <b>aimer</b>, <b>commenter</b>, <b>s'abonner</b> et <b>partager des publications</b>. Les utilisateurs peuvent également créer, modifier et supprimer leurs propres publications.",
               "tags": [
-                "React",
-                "Node.js",
+                "ReactJs",
                 "Express",
                 "MongoDB",
-                "Tailwind",
-                "REST API"
+                "TailwindCss",
+                "REST API",
+                "Passport"
               ]
             },
             "ko": {
               "title": "Threads",
               "text": "<b>Twitter</b>에서 클론된 풀스택 소셜 미디어 애플리케이션입니다. 사용자는 <b>좋아요</b>, <b>댓글</b>, <b>팔로우</b>, <b>게시물 공유</b>가 가능합니다. 사용자들은 자신이 만든 게시물을 생성, 수정, 삭제할 수 있습니다.",
               "tags": [
-                "React",
-                "Node.js",
+                "ReactJs",
                 "Express",
                 "MongoDB",
-                "Tailwind",
-                "REST API"
+                "TailwindCss",
+                "REST API",
+                "Passport"
               ]
             }
           }
@@ -463,24 +463,24 @@
               "title": "ArisanatStore",
               "text": "This project is an e-commerce website with different spaces for regular users and administrators. It connects user authentication with inventory management to create a complete online shopping experience.",
               "tags": [
-                "React",
-                "Node.js",
+                "ReactJs",
                 "Express",
                 "MongoDB",
-                "Tailwind",
-                "REST API"
+                "TailwindCss",
+                "REST API",
+                "Team Project"
               ]
             },
             "es": {
               "title": "ArisanatStore",
               "text": "Este proyecto es un sitio web de comercio electrónico con espacios diferentes para usuarios normales y administradores. Conecta la autenticación de usuarios con la gestión de inventario para ofrecer una experiencia completa de compras en línea.",
               "tags": [
-                "React",
-                "Node.js",
+                "ReactJs",
                 "Express",
                 "MongoDB",
-                "Tailwind",
+                "TailwindCss",
                 "REST API",
+                "Team Project",
                 "Team"
               ]
             },
@@ -488,24 +488,24 @@
               "title": "ArisanatStore",
               "text": "Ce projet est un site e-commerce avec des espaces distincts pour les utilisateurs et les administrateurs. Il relie l'authentification des utilisateurs à la gestion des stocks pour une expérience complète d'achat en ligne.",
               "tags": [
-                "React",
-                "Node.js",
+                "ReactJs",
                 "Express",
                 "MongoDB",
-                "Tailwind",
-                "REST API"
+                "TailwindCss",
+                "REST API",
+                "Team Project"
               ]
             },
             "ko": {
               "title": "ArisanatStore",
               "text": "이 프로젝트는 일반 사용자와 관리자를 위한 공간이 분리된 전자 상거래 웹사이트입니다. 사용자 인증과 재고 관리를 연결하여 완전한 온라인 쇼핑 경험을 제공합니다.",
               "tags": [
-                "React",
-                "Node.js",
+                "ReactJs",
                 "Express",
                 "MongoDB",
-                "Tailwind",
-                "REST API"
+                "TailwindCss",
+                "REST API",
+                "Team Project"
               ]
             }
           }
@@ -539,11 +539,11 @@
               "title": "Stock Manager",
               "text": "This project is an e-commerce website with different spaces for regular users and administrators. It connects user authentication with inventory management to create a complete online shopping experience. The Task Manager includes features such as adding, editing, and deleting products, as well as viewing all products and administrators.",
               "tags": [
-                "React",
+                "ReactJs",
                 "Node.js",
                 "Express",
                 "MongoDB",
-                "Tailwind",
+                "TailwindCss",
                 "REST API"
               ]
             },
@@ -551,11 +551,11 @@
               "title": "Stock Manager",
               "text": "Este proyecto es un sitio web de comercio electrónico con espacios diferentes para usuarios normales y administradores. Conecta la autenticación de usuarios con la gestión de inventario para ofrecer una experiencia completa de compras en línea. El Administrador de Tareas incluye funciones como agregar, editar y eliminar productos, además de visualizar todos los productos y administradores.",
               "tags": [
-                "React",
+                "ReactJs",
                 "Node.js",
                 "Express",
                 "MongoDB",
-                "Tailwind",
+                "TailwindCss",
                 "REST API",
                 "Team"
               ]
@@ -564,11 +564,11 @@
               "title": "Stock Manager",
               "text": "Ce projet est un site e-commerce avec des espaces distincts pour les utilisateurs et les administrateurs. Il relie l'authentification des utilisateurs à la gestion des stocks pour une expérience complète d'achat en ligne. Le Gestionnaire de Tâches propose des fonctionnalités telles que l’ajout, la modification et la suppression de produits, ainsi que la visualisation de tous les produits et administrateurs.",
               "tags": [
-                "React",
+                "ReactJs",
                 "Node.js",
                 "Express",
                 "MongoDB",
-                "Tailwind",
+                "TailwindCss",
                 "REST API"
               ]
             },
@@ -576,11 +576,11 @@
               "title": "Stock Manager",
               "text": "이 프로젝트는 일반 사용자와 관리자를 위한 공간이 분리된 전자 상거래 웹사이트입니다. 사용자 인증과 재고 관리를 연결하여 완전한 온라인 쇼핑 경험을 제공합니다. 작업 관리자는 제품 추가, 수정, 삭제는 물론, 모든 제품과 관리자 목록을 확인할 수 있는 기능을 제공합니다.",
               "tags": [
-                "React",
+                "ReactJs",
                 "Node.js",
                 "Express",
                 "MongoDB",
-                "Tailwind",
+                "TailwindCss",
                 "REST API"
               ]
             }
